@@ -2,7 +2,6 @@
 # example: len()
 
 
-
 # inheritance class polymorphism
 class Vehicle:
     def __init__(self, brand, model):
@@ -31,3 +30,8 @@ for x in (car1, boat1, plane1):
     print(x.brand)
     print(x.model)
     x.move()
+
+
+def nyapa():
+    print("Nyapa!")
+
